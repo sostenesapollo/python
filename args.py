@@ -1,3 +1,5 @@
+# *args will pack all arguments into a [tuple]
+
 def add(*stuff):
     sum = 0 
     stuff = list(stuff)
